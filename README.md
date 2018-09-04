@@ -1,2 +1,0 @@
-# html
-HTML learning journey
