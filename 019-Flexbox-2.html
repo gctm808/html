@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flexbox-2</title>
+<style>
+.flex-container{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.sidebar{
+	flex: 20%;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.main{
+	flex: 80%;
+}
+
+.sidebar > div{
+	background-color: silver;
+	color: black;
+	width: 200px;
+	margin: 10px;
+	text-align: center;
+	line-height: 75px;
+	font-size: 30px;
+}
+
+
+</style>
+<body>
+<h1 style="text-align:center">More Flexbox Practice</h1>
+<div class="flex-container">
+	<div class="sidebar">
+		<div><a href="#">Hyperlink</a></div>
+		<div>2</div>
+		<div>3</div>
+		<div>4</div>
+	</div>
+	<div class="main">
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus tempus massa eu 
+		risus viverra placerat. Sed consequat, lorem et eleifend rutrum, lacus ipsum tristique 
+		massa, non fringilla dui enim et augue. Nam ut est cursus lectus mattis condimentum. 
+		Vestibulum viverra erat erat, id hendrerit velit tincidunt id. Mauris pharetra, leo 
+		et euismod tempus, sem dui mollis urna, dictum lobortis risus metus suscipit elit. 
+		Pellentesque pellentesque sollicitudin massa, nec consectetur magna euismod eu. 
+		Aliquam eget lobortis dolor. Curabitur molestie pharetra tellus, vel tempor libero 
+		tempus vitae. Nulla eget commodo est. Pellentesque vel tellus velit. Nulla vitae metus 
+		vitae massa pharetra laoreet. Aenean euismod sit amet ante non sodales. In et nisl 
+		lobortis, porta enim malesuada, aliquet mi. Praesent gravida tellus mi, nec accumsan 
+		erat laoreet at. Curabitur sed pulvinar odio. Interdum et malesuada fames ac ante ipsum 
+		primis in faucibus. Duis commodo porta velit sed porttitor. Fusce eget accumsan dui. In 
+		eleifend semper lectus eu consectetur. Nullam dolor mauris, tincidunt vel eros in, 
+		lacinia luctus dui. Donec nec rutrum leo. Mauris ultrices cursus odio semper dignissim. 
+		Suspendisse potenti. Nullam id ultrices ligula. Orci varius natoque penatibus et magnis 
+		dis parturient montes, nascetur ridiculus mus. Nulla porttitor eros egestas ante 
+		ullamcorper varius. Interdum et malesuada fames ac ante ipsum primis in faucibus. 
+		Curabitur vel justo vitae turpis aliquam tincidunt non id magna. Curabitur sollicitudin 
+		ut orci in sollicitudin. Maecenas facilisis tempor elementum. Sed cursus viverra ante 
+		vel imperdiet. Nam sollicitudin elit pretium pulvinar blandit. Nulla rutrum tellus 
+		pellentesque faucibus aliquam. Quisque aliquet aliquam nibh ac auctor. Phasellus 
+		consectetur velit sed velit ornare, at suscipit purus ultrices. Donec dapibus tellus 
+		non pretium volutpat. Phasellus vitae tincidunt diam. Suspendisse sed nulla diam. 
+		Quisque quis risus et tellus tempus sagittis at non neque. Etiam dictum mattis felis, 
+		vel tincidunt nibh finibus id. Donec at lobortis mauris. Ut in dolor lectus. Donec 
+		placerat faucibus sem interdum consectetur. In egestas nunc quis ante aliquam, eu 
+		rhoncus erat feugiat.</p>
+	</div>
+</div>
+</body>
+</html>
